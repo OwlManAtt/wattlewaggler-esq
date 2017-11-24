@@ -11,6 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::view('/', 'welcome');
+Route::view('/about', 'about');
+Route::view('/testimonials', 'testimonials');
+Route::view('/legal/terms', 'terms');
+Route::view('/legal/terms', 'privacy');
+
+// TODO: Contact & secure area
