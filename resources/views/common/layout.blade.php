@@ -22,16 +22,16 @@
              </button>
              <div class="collapse navbar-collapse" id="navbarCollapse">
                <ul class="navbar-nav mr-auto">
-                 <li class="nav-item active">
+                 <li class="nav-item @navItemActive('home')">
                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                  </li>
-                 <li class="nav-item">
+                 <li class="nav-item @navItemActive('about')">
                    <a class="nav-link" href="/about">About</a>
                  </li>
-                 <li class="nav-item">
+                 <li class="nav-item @navItemActive('testimonials')">
                    <a class="nav-link" href="/testimonials">Testimonials</a>
                  </li>
-                 <li class="nav-item">
+                 <li class="nav-item @navItemActive('contact')">
                    <a class="nav-link" href="/contact">Contact</a>
                  </li>
 
