@@ -6,7 +6,7 @@
     <p class="lead">We can fix problems big or small &mdash; <strong>and get you a big payday!</strong></p>
 
     <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-3 ml-auto">
             <ul class="list-unstyled">
                 <li>Personal or Work Injuries</li>
                 <li>Mining Claims</li>
