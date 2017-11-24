@@ -49,7 +49,9 @@
 
          <!-- Begin page content -->
          <main role="main" class="container">
-             @yield('content')
+             <div class="mt-3" id="content">
+                 @yield('content')
+            </div>
          </main>
 
          <footer class="footer">
