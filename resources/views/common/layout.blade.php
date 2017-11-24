@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
-        <title>Laravel</title>
+        <title>Wattlewaggler and Associates</title>
     </head>
     <body>
 
@@ -29,13 +29,20 @@
                    <a class="nav-link" href="/testimonials">Testimonials</a>
                  </li>
                  <li class="nav-item">
-                   <a class="nav-link disabled" href="/blog">Blog [PRIVATE]</a>
+                   <a class="nav-link" href="/contact">Contact</a>
                  </li>
+
+                 {{-- @TODO make this "private"
+                 <li class="nav-item">
+                   <a class="nav-link" href="/blog">Blog</a>
+                 </li>
+                 --}}
                </ul>
-               <form class="form-inline mt-2 mt-md-0">
-                 <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-               </form>
+               <ul class="navbar-nav ml-auto">
+                   <li class="nav-item">
+                       <a class="nav-link" href="/login">Staff Login</a>
+                   </li>
+               </ul>
              </div>
            </nav>
          </header>
@@ -46,9 +53,41 @@
          </main>
 
          <footer class="footer">
-           <div class="container">
-             <span class="text-muted">Place sticky footer content here.</span>
-           </div>
+             <div class="container">
+                <div class="row pt-3">
+                    <div class="col-md-6 text-muted">
+                        6278 Main Ave, Downlow in the Spike &mdash; Comm ID 81 271291
+                    </div>
+                    <div class="col-md-6 text-right text-muted">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a href="https://twitter.com/WattleAssocLaw">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i> WattleAssocLaw
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://github.com/OwlManAtt/wattlewaggler-esq">
+                                    <i class="fa fa-github" aria-hidden="true"></i> Open Source
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row pt-1">
+                    <div class="col-md-6 text-muted">
+                        &copy; Copyright 315 - 320 Wattlewaggler &amp; Associates. All rights reserved.
+                    </div>
+                    <div class="col-md-6 text-right text-muted">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a href="/legal/terms">Terms and Conditions</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="/legal/privacy">Privacy Policy</a>
+                            </li>
+                    </div>
+                </div>
+             </div>
          </footer>
 
          <script src="{{ asset('js/app.js') }}"></script>
