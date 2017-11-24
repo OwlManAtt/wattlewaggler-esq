@@ -33,7 +33,7 @@
 
     <div class="row">
         <div class="col-6 mx-auto">
-            <p><a class="btn btn-lg btn-block btn-success" href="/contact" role="button">
+            <p><a class="btn btn-lg btn-block btn-info" href="/contact" role="button">
                 <i class="fa fa-calendar mr-2" aria-hidden="true"></i>
                 Book your free confidential consultation today
                 <i class="fa fa-phone ml-2" aria-hidden="true"></i>
@@ -57,7 +57,7 @@
         <p>Everybody on the 'net is quick to tell you to Lawyer Up, but that can be expensive. You've never been to law school, so maybe you're wasting your hard-earned money on expensive and ultimately-fruitless discussion with overpriced lawyers?</p>
         <p>Well, we're not like that. Our firm is here for you, the everyman. <strong>An initial consultation</strong> with our highly-trained legal staff <strong>is always free</strong>. If you think you might need our help navigating the complex web of the Pact Worlds legal system, get in touch and we can set you straight at <strong>no cost</strong>!</p>
 
-        <p><a href="/contact" class="btn btn-lg btn-success" role="button">Book a free consultation now</a></p>
+        <p><a href="/contact" class="btn btn-lg btn-info" role="button">Book a free consultation now</a></p>
     </div>
 </div>
 @endsection

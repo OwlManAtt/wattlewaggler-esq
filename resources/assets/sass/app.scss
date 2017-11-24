@@ -1,7 +1,8 @@
 // Fonts
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 
-// Variables
+// Variables. Pulling functions in first lets us use stuff like darken().
+@import "~bootstrap/scss/functions";
 @import "variables";
 
 // Bootstrap
@@ -42,4 +43,12 @@ body > .container {
 
 .footer li {
     padding-left: 1.5rem;
+}
+
+#content {
+    background-color: white;
+    padding: 1em;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
 }
