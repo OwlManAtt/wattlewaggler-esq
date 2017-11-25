@@ -2,6 +2,8 @@
 
 return [
 
+    'consultation_to_addr' => env('CONSULTATION_TO_EMAIL', 'owlmanatt+law@gmail.com'),
+
     /*
     |--------------------------------------------------------------------------
     | Application Name
