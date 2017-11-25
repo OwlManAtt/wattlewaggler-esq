@@ -42,7 +42,7 @@
 
     <div class="form-group">
         <label for="message">Message</label>
-        <textarea class="form-control @isInvalid('message')" id="message" name="message" aria-describedby="messageHelp">{{ old('message') }}</textarea>
+        <textarea class="form-control @isInvalid('message')" id="message" name="message" aria-describedby="messageHelp" rows="6">{{ old('message') }}</textarea>
         <small id="messageHelp" class="form-text text-muted">Your message is protected by attorney-client priviledge and is <strong>completely confidential</strong>.</small>
         @showErrors('message')
     </div>
