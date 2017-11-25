@@ -34,16 +34,10 @@
                  <li class="nav-item @navItemActive('contact')">
                    <a class="nav-link" href="/contact">Contact</a>
                  </li>
-
-                 {{-- @TODO make this "private"
-                 <li class="nav-item">
-                   <a class="nav-link" href="/blog">Blog</a>
-                 </li>
-                 --}}
                </ul>
                <ul class="navbar-nav ml-auto">
                    <li class="nav-item">
-                       <a class="nav-link" href="/login">Staff Login</a>
+                       <a class="nav-link @navItemActive('login')" href="/login">Staff Login</a>
                    </li>
                </ul>
              </div>

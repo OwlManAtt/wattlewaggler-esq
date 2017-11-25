@@ -17,6 +17,8 @@ Route::view('/testimonials', 'testimonials')->name('testimonials');
 Route::view('/legal/terms', 'terms');
 Route::view('/legal/terms', 'privacy');
 
-// TODO: Contact & secure area
 Route::view('/contact', 'contact')->name('contact');
 Route::post('/contact', 'ContactController@send');
+
+// @TODO - Make this 'hackable' & add blog
+Route::view('/login', 'login')->name('login');
