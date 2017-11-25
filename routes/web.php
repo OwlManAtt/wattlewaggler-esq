@@ -15,7 +15,7 @@ Route::view('/', 'welcome')->name('home');
 Route::view('/about', 'about')->name('about');
 Route::view('/testimonials', 'testimonials')->name('testimonials');
 Route::view('/legal/terms', 'terms');
-Route::view('/legal/terms', 'privacy');
+Route::view('/legal/privacy', 'privacy');
 
 Route::view('/contact', 'contact')->name('contact');
 Route::post('/contact', 'ContactController@send');
