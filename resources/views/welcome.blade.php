@@ -36,7 +36,6 @@
             <p><a class="btn btn-lg btn-block btn-info" href="/contact" role="button">
                 <i class="fa fa-calendar mr-2" aria-hidden="true"></i>
                 Book your free confidential consultation today
-                <i class="fa fa-phone ml-2" aria-hidden="true"></i>
             </a></p>
         </div>
     </div>
