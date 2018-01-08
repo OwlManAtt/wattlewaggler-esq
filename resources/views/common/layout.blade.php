@@ -31,6 +31,9 @@
                  <li class="nav-item @navItemActive('testimonials')">
                    <a class="nav-link" href="/testimonials">Testimonials</a>
                  </li>
+                 <li class="nav-item @navItemActive('planner')">
+                   <a class="nav-link" href="/planner">Calendar</a>
+                 </li>
                  <li class="nav-item @navItemActive('contact')">
                    <a class="nav-link" href="/contact">Contact</a>
                  </li>
@@ -90,6 +93,13 @@
          </footer>
 
          <script src="{{ asset('js/app.js') }}"></script>
+         @stack('script-tag')
+
+         <script type="text/javascript">
+            $(document).ready(function () {
+                @stack('script')
+            });
+         </script>
          @if (config('google.analytics') != null)
              <!-- Global site tag (gtag.js) - Google Analytics -->
              <script async src="https://www.googletagmanager.com/gtag/js?id={{ config('google.analytics') }}"></script>

@@ -14,6 +14,8 @@
 Route::view('/', 'welcome')->name('home');
 Route::view('/about', 'about')->name('about');
 Route::view('/testimonials', 'testimonials')->name('testimonials');
+Route::view('/planner', 'planner')->name('planner');
+
 Route::view('/legal/terms', 'terms');
 Route::view('/legal/privacy', 'privacy');
 
