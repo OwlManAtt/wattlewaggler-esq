@@ -12,7 +12,9 @@
         <div class="col-6 mx-auto">
             <div class="form-group">
                 <div class="input-group">
-                    <span class="input-group-addon" id="addon-lock"><i class="fa fa-lock fa-2x" aria-hidden="true"></i></span>
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="addon-lock"><i class="fa fa-lock fa-2x" aria-hidden="true"></i></span>
+                    </div>
                     <input type="text" id="code" name="code" class="form-control form-control-lg" value="{{ old('code') }}" placeholder="Enter PIN..." aria-describedby="addon-lock">
                 </div>
             </div>
